@@ -1,0 +1,60 @@
+.postSummary {
+  margin-bottom: 30px;
+}
+
+.postSummary * {
+  border-radius: 15px 15px 15px 15px;
+  background-color: white;
+  padding: 10px;
+}
+
+.postSummary hr {
+  padding: 0px;
+  border: 1px;
+  height: 1px;
+  margin: 0px;
+  background-color: black;
+  opacity: 0.1;
+}
+
+.title {
+  font-family: Pretendard;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.2px;
+  text-align: left;
+  padding: 30px;
+  height: 0px;
+}
+
+.allElement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftElement {
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+}
+
+.rightElement {
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: right;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.authorImage {
+  width: 36px;
+  height: 36px;
+}

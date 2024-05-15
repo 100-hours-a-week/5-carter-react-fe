@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 408px;
+  height: 242px;
+  border-radius: 12px 12px 12px 12px;
+  background-color: white;
+  gap: 30px;
+}
+
+.container div {
+  background-color: white;
+}
+
+.msg1 {
+  font-family: Pretendard;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.64px;
+  text-align: center;
+}
+
+.msg2 {
+  font-family: Pretendard;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.87px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons button {
+  width: 127px;
+  height: 44px;
+  border-radius: 12px 12px 12px 12px;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.87px;
+  text-align: center;
+  border: none;
+}
+
+.cancel {
+  background-color: #242424;
+  color: white;
+}
+
+.agree {
+  background-color: #c4a5fa;
+  color: black;
+}

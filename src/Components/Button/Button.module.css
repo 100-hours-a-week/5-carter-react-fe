@@ -1,0 +1,27 @@
+.longButtonTitle {
+  width: 355px;
+  height: 33px;
+  background-color: #aca0eb;
+  color: white;
+  text-align: center;
+  line-height: 33px;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.shortButtonTitle {
+  width: 138px;
+  height: 39px;
+  background-color: #aca0eb;
+  color: white;
+  line-height: 33px;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 14px 14px 14px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

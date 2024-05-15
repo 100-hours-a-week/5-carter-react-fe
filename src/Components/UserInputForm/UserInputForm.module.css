@@ -1,0 +1,17 @@
+.inputTitle {
+  /* margin-top:15px; */
+  font-family: Pretendard;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17.9px;
+  text-align: left;
+}
+
+.inputMessage {
+  margin-top: 6px;
+  margin-bottom: 5px;
+  width: 355px;
+  height: 33px;
+  border: 1px solid;
+  border-radius: 4px 4px 4px 4px;
+}

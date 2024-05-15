@@ -1,0 +1,58 @@
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileForm {
+  width: 400px;
+  height: 206px;
+}
+
+.inputForm {
+  width: 392px;
+  height: 406px;
+}
+
+.loginLink {
+  margin-top: 15px;
+  width: 355px;
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.profileForm {
+  width: 406px;
+  height: 206px;
+}
+
+.centeredImage {
+  margin: 0 auto;
+}
+
+.circle {
+  width: 149px;
+  height: 149px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cross {
+  font-size: 44px;
+  color: black;
+  background-color: transparent;
+  font-weight: 70;
+}

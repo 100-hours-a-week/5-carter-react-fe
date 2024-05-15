@@ -1,0 +1,10 @@
+* {
+  background-color: #f4f5f7;
+}
+
+.page {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}

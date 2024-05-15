@@ -1,0 +1,109 @@
+.container {
+  margin-top: 30px;
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.title {
+  font-family: Pretendard;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.2px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.postContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.postInfo {
+  display: flex;
+  align-items: center;
+}
+
+.userProfile {
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.writer {
+  font-family: Pretendard;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19.5px;
+  text-align: left;
+  margin-right: 25px;
+}
+
+.time {
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+}
+
+.postActions {
+  display: flex;
+  gap: 10px;
+}
+
+.postActions button {
+  width: 50px;
+  border-radius: 10px 10px 10px 10px;
+  border-width: 1px 1px 1px 1px;
+  border-color: #aca0eb;
+  font-family: Pretendard;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23.48px;
+  text-align: center;
+}
+
+.postImage {
+  width: 544px;
+  height: 306px;
+}
+
+.postContent {
+  width: 544px;
+  height: 231px;
+  font-family: Pretendard;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.15px;
+  text-align: left;
+  overflow-y: auto;
+}
+
+.counts {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.count {
+  width: 116px;
+  height: 77px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9d9d9;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.count div {
+  background-color: #d9d9d9;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+}

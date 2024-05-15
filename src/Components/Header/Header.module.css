@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  height: 104px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.goBack,
+.userProfile {
+  width: 36px;
+  height: 36px;
+  flex: 0;
+}
+
+.headerTitle {
+  flex: 2;
+  font-family: Sandoll GogoRound;
+  font-size: 32px;
+  text-align: center;
+}
+
+.header::before,
+.header::after {
+  content: "";
+  flex: 2;
+}
+
+.headerLine {
+  border: 0.1px solid gray;
+}
+
+.hidden {
+  visibility: hidden;
+}
